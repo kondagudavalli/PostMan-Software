@@ -1,0 +1,34 @@
+POST : by using of post method u can add a new book
+POST:https://library-api.postmanlabs.com/books
+then
+body->raw->JSON
+{
+    {
+        
+        "title": "Learn Postman with Gudavalli's",
+        "author": "Konda Gudavalli",
+        "genre": "Education",
+        "yearPublished":2025 
+        
+    }
+}
+
+In headers:
+key=api-key
+value=postmanrulz
+click the button SEND : 201 created sucessfully created
+
+searching a book using an ID:
+https://library-api.postmanlabs.com/books/:id=9ac9f767-c663-4622-ba3f-93638bce702e
+output:
+
+{
+    "id": "9ac9f767-c663-4622-ba3f-93638bce702e",
+    "title": "Learn Postman with Gudavalli's",
+    "author": "Konda Gudavalli",
+    "genre": "Education",
+    "yearPublished": 2025,
+    "checkedOut": false,
+    "isPermanentCollection": false,
+    "createdAt": "2025-09-06T04:16:30.968Z"
+}

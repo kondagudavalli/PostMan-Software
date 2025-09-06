@@ -1,0 +1,8 @@
+SCRIPTS
+========
+1)pre request
+2) post response
+post response: we should write js code like
+ex:
+console.log(pm.response.json())
+then output will be in console file

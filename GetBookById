@@ -1,0 +1,17 @@
+ get book by id
+================
+we use path parameter(/)
+Ex:
+https://library-api.postmanlabs.com/books/:id=91e89fc0-34e2-4e96-b24b-7e1cdf478015
+it search particular id
+output :
+{
+    "id": "91e89fc0-34e2-4e96-b24b-7e1cdf478015",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "fiction",
+    "yearPublished": 1960,
+    "checkedOut": false,
+    "isPermanentCollection": false,
+    "createdAt": "2025-09-06T03:55:14.214Z"
+}
